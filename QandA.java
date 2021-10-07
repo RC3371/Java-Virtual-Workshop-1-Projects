@@ -16,10 +16,10 @@ public class QandA {
         System.out.println("Do you wear glasses?");
         answer5 = myKeyboard.next();
 
-        System.out.println(answer1);
-        System.out.println(answer2);
-        System.out.println(answer3);
-        System.out.println(answer4);
-        System.out.println(answer5);
+        System.out.println("Your name is " + answer1);
+        System.out.println("Your favorite color is " + answer2);
+        System.out.println("Do you have any pets? Your answer - " + answer3);
+        System.out.println("Do you have any siblings? Your answer - " + answer4);
+        System.out.println("Do you wear glasses? Your answer - " + answer5);
     }
 }
